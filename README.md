@@ -1,4 +1,4 @@
-Raphaeljs-charts
-================
+# Raphaeljs-charts
 
-The charts are constructed based on the Raphaeljs.
+## The charts are constructed by starandtina based on the Raphaeljs
+
