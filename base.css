@@ -1,0 +1,108 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  /*vertical-align: baseline; remove by tangjinhua for table issue*/ }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height:1.2; }
+
+ol, ul {
+  list-style: none; }
+em{font-style:normal;}
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+b {
+  font-weight: bolder; }
+
+/*  clearfix method */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix {
+  display: inline-block; }
+
+* html .clearfix {
+  height: 1%; 
+  }
+
+/* Hides from IE-mac \*/
+.clearfix {
+  display: block; }
+
+/*common style*/
+body {
+  font-size: 12px;
+  font-family: Arial,'\5b8b\4f53'; 
+  _font-family: '\5b8b\4f53';
+ }
+
+img {
+  vertical-align: middle; }
+
+a {
+  color: #0965B8;
+  text-decoration: none;
+  cursor: pointer; }
+
+a:hover {
+  text-decoration: underline; }
+
+.clear {
+  clear: both;
+  font-size: 0;
+  height: 0; }
+
+.ellipsis {
+  display:inline-block;
+  white-space: nowrap;
+  width: 222px;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+th {
+  text-align: left; }
+
+label input{vertical-align:middle;margin-top:0;}
+select, input {
+    vertical-align: middle;
+}
+div.section {
+  margin-top: 10px; }
+
+.l {
+  float: left; }
+
+.r {
+  float: right; }
+
+.gray {
+  color: gray; }
+
+.red {
+  color: red; }
+
+h2{
+  font-size: 16px;
+  line-height: 2;
+}
