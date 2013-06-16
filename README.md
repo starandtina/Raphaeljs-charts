@@ -6,4 +6,4 @@ The charts are constructed based on the Raphaeljs.
 
 ## Pie
 
-## 
+## Column
